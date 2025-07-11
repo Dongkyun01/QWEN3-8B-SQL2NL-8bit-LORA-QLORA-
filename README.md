@@ -48,9 +48,7 @@ json
 
 모든 데이터는 다음의 **prompt format**으로 변환되어 모델에 입력됨:
 
-```
-shell
-복사편집
+
 Instruction: SQL 쿼리를 자연어 질의로 변환하세요.
 ### DB ID: {db_id}### Table: {table_name}### SQL Query:
 {input_query}
@@ -59,7 +57,7 @@ col1: desc1, col2: desc2, ...
 ### Natural Language:
 {output_utterance}
 
-```
+
 
 - **Instruction 기반 prompting**으로 모델 task를 명확히 지정.
 - **DB ID, Table name, Schema column descriptions** 포함하여 쿼리 context를 풍부하게 제공.
