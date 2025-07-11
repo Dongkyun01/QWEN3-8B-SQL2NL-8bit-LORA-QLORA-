@@ -29,8 +29,7 @@
 각 샘플은 아래와 같은 JSON 구조를 가짐:
 
 ```json
-json
-복사편집
+
 {
   "db_id": "database identifier",
   "table_name": "table name",
